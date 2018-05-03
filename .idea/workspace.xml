@@ -459,12 +459,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GenericQueueTest.lengthTest">
+  <component name="RunManager" selected="JUnit.GenericQueueTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GenericQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="edu.gcccd.csis_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gcccd.csis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.gcccd.csis" />
+      <option name="MAIN_CLASS_NAME" value="edu.gcccd.csis.GenericQueueTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="GenericQueueTest.dequeueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="edu.gcccd.csis_test" />
@@ -590,9 +613,11 @@
       <item itemvalue="JUnit.GenericQueueTest.dequeueTest" />
       <item itemvalue="JUnit.GenericQueueTest.enqueueTest" />
       <item itemvalue="JUnit.GenericQueueTest.lengthTest" />
+      <item itemvalue="JUnit.GenericQueueTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericQueueTest" />
         <item itemvalue="JUnit.GenericQueueTest.lengthTest" />
         <item itemvalue="JUnit.GenericQueueTest.enqueueTest" />
         <item itemvalue="JUnit.GenericQueueTest.dequeueTest" />
