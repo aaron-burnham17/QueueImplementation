@@ -4,9 +4,9 @@ package edu.gcccd.csis;
 import java.util.ArrayList;
 import java.util.EmptyStackException;
 
-public class GenericQueue<T> {
+public class GenericQueue<E> {
 
-    private final ArrayList<T> elements = null;
+    private ArrayList<E> elements = null;
 
     public GenericQueue() {
         this(10);
@@ -14,16 +14,17 @@ public class GenericQueue<T> {
 
     public GenericQueue(int capacity){
         int initCapacity = capacity > 0 ? capacity : 10;
+        elements = new ArrayList<E>(initCapacity);
     }
 
-    public T dequeue() {
+    public E dequeue() {
         if(elements.isEmpty()){
             throw new EmptyStackException();
         }
         return elements.remove(0);
     }
 
-    public void enqueue(T queueValue) {
+    public void enqueue(E queueValue) {
         elements.add(queueValue);
     }
 
