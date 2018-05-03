@@ -31,7 +31,7 @@ public class GenericQueueTest {
     @Test
     public void lengthTest() {
         GenericQueue<Exception> ExcepQueue = new GenericQueue<Exception>();
-        
+
         assertEquals(0,ExcepQueue.length());
         for(int i = 0; i < 36;i++) {
             ExcepQueue.enqueue(null);
