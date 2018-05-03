@@ -22,11 +22,21 @@ public class GenericQueueTest {
     public void enqueueTest() {
         GenericQueue<Integer> IntQueue = new GenericQueue<Integer>();
 
-        Intqueue.enqueue
-
+        IntQueue.enqueue(1);
+        assertEquals((Integer)1,IntQueue.dequeue());
+        IntQueue.enqueue(256);
+        assertEquals((Integer)256,IntQueue.dequeue());
     }
 
     @Test
     public void lengthTest() {
+        GenericQueue<Exception> ExcepQueue = new GenericQueue<Exception>();
+        
+        assertEquals(0,ExcepQueue.length());
+        for(int i = 0; i < 36;i++) {
+            ExcepQueue.enqueue(null);
+        }
+        assertEquals(36,ExcepQueue.length());
+
     }
 }
